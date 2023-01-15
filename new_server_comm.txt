@@ -1,0 +1,20 @@
+Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+
+// The Path module provides a way of working with directories and file paths
+// Node. js path module is used for handling and transforming file paths
+
+// Common use for the File System module:
+// Read files
+// Create files
+// Update files
+// Delete files
+// Rename files
+
+
+// we have a one other option to join the file which is resolve The method creates absoulte path from right to left until an absolute path is constructed.
+
+// The two functions deal with segments starting with / in very different ways; join will just concatenate it with the previous argument, however resolve will treat this as the root directory, and ignore all previous paths - think of it as the result of executing cd with each argument:
+
+// app.use('/public', express.static(__dirname + "/public"));
+
+// You can use __dirname to check on which directories your files live.
